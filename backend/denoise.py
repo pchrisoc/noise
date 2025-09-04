@@ -1,5 +1,7 @@
 import numpy as np
 import librosa, soundfile as sf
+import matplotlib
+matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import librosa.display
 from scipy.signal import iirnotch, filtfilt, butter, sosfiltfilt
