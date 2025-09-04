@@ -1,0 +1,29 @@
+
+> frontend@0.1.0 dev
+> next dev --turbopack
+
+ ⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of /Users/pchrisoc/package-lock.json as the root directory.
+ To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+ Detected additional lockfiles: 
+   * /Users/pchrisoc/noise/frontend/package-lock.json
+
+   ▲ Next.js 15.5.2 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://10.40.82.97:3000
+
+ ✓ Starting...
+ ✓ Ready in 778ms
+ ○ Compiling / ...
+ ✓ Compiled / in 1226ms
+ GET / 200 in 1491ms
+ ✓ Compiled /favicon.ico in 131ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 406ms
+ GET / 200 in 70ms
+ GET / 200 in 59ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 233ms
+ GET / 200 in 56ms
+ ✓ Compiled in 15ms
+ GET / 200 in 168ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 229ms
